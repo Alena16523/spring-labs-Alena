@@ -1,4 +1,4 @@
-package com.cydeo.entity;
+package com.cydeo.lab07ormqueries.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -7,7 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
-import java.math.BigDecimal;
 
 @MappedSuperclass
 @Getter

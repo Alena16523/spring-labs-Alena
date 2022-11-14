@@ -1,4 +1,4 @@
-package com.cydeo.entity;
+package com.cydeo.lab07ormqueries.entity;
 
 import com.cydeo.enums.PaymentMethod;
 import lombok.Getter;
@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 @Getter
 @NoArgsConstructor
 @Table(name = "payment")
-public class Payment extends BaseEntity{
+public class Payment extends BaseEntity {
 
     private BigDecimal paidPrice;
 
